@@ -1,4 +1,4 @@
-@import url("fonts.googleapis.com/css?family= Allure|Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Allure|Josefin+Sans");
 
 * {
   margin: 0;
@@ -53,6 +53,7 @@ h1.title {
 
 .logo a {
   font-family: "Allura", "cursive";
+
   font-size: 32px;
   color: red;
 }
@@ -106,4 +107,20 @@ h1.title {
 
 .navbar_items ul li:hover ul li {
   display: block;
+}
+
+.banner_content {
+  text-align: center;
+  color: tan;
+  background-color: lightblue;
+}
+
+.banner_content h1 {
+  text-transform: uppercase;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+.banner_content h1 span {
+  color: tomato;
 }
