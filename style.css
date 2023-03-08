@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
 
+/* Allura is always cursive*/
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +22,9 @@ p {
 h1.title {
   margin-bottom: 20px;
   color: orange;
-  font-family: "Allura", cursive;
+  font-family: "Allura", "cursive";
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
   word-spacing: 25px;
   letter-spacing: 5px;
 }
@@ -44,7 +46,7 @@ h1.title {
 
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 65px;
   position: absolute;
   display: flex;
   justify-content: space-around;
@@ -52,7 +54,7 @@ h1.title {
 }
 
 .logo a {
-  font-family: "Allura";
+  font-family: "Allura", "cursive";
   font-size: 60px;
   font-weight: bold;
   color: red;
@@ -172,14 +174,6 @@ h1.title {
   margin-bottom: 15px;
 }
 
-.form_wrapper .form_input textarea {
-  width: 250px;
-  padding: 12px 20px;
-  height: 80px;
-  resize: none;
-  border: 1px solid lightcyan;
-}
-
 .form_wrapper .form_input input[type="text"] {
   width: 250px;
   padding: 12px 20px;
@@ -187,5 +181,10 @@ h1.title {
 }
 
 .form_wrapper .form_input input[type="text"]:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  background-color: aquamarine;
+}
+
+.ourteam {
+  background: whitesmoke;
 }
