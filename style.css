@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Allure|Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   outline: none;
   list-style: none;
   text-decoration: none;
-  font-family: Josefin Sans, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 p {
@@ -20,7 +20,7 @@ p {
 h1.title {
   margin-bottom: 20px;
   color: orange;
-  font-family: "Allura", "cursive";
+  font-family: "Allura", cursive;
   text-transform: uppercase;
   font-size: 38px;
   word-spacing: 25px;
@@ -44,7 +44,7 @@ h1.title {
 
 .navbar {
   width: 100%;
-  height: 65px;
+  height: 100px;
   position: absolute;
   display: flex;
   justify-content: space-around;
@@ -52,8 +52,7 @@ h1.title {
 }
 
 .logo a {
-  font-family: "Allura", "cursive";
-
+  font-family: "Allura";
   font-size: 32px;
   color: red;
 }
@@ -67,7 +66,8 @@ h1.title {
 .navbar_items ul li {
   float: left;
   width: 100px;
-  height: 40px;
+  height: 35px;
+  padding-bottom: 4px;
   background-color: lightgoldenrodyellow;
   opacity: 0.8;
   line-height: 40px;
@@ -98,7 +98,7 @@ h1.title {
 }
 
 .navbar_items ul li a:hover:after {
-  transform: translatex(-50%) scale3d(1);
+  transform: translateX(-50%) scaleX(1);
 }
 
 .navbar_items ul li ul li {
@@ -110,9 +110,9 @@ h1.title {
 }
 
 .banner_content {
+  margin-top: 75px;
   text-align: center;
   color: tan;
-  background-color: lightblue;
 }
 
 .banner_content h1 {
@@ -123,4 +123,14 @@ h1.title {
 
 .banner_content h1 span {
   color: tomato;
+}
+
+.banner_image {
+  background: url("images/p1.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 600%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
